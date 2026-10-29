@@ -1,0 +1,18 @@
+/* Paleta sobria empresarial: azul marino, grises y blanco */
+:root {
+  --corp-primario: #1f3a5f;
+  --corp-secundario: #2c4f7c;
+  --corp-fondo: #f4f6f9;
+  --corp-texto: #212b36;
+  --corp-borde: #d5dbe3;
+}
+body { background: var(--corp-fondo); color: var(--corp-texto); font-family: "Segoe UI", Roboto, Arial, sans-serif; }
+.encabezado-corp { background: var(--corp-primario); color: #fff; border-bottom: 4px solid #a8b5c7; }
+.pie-corp { background: var(--corp-primario); color: #dfe5ee; }
+.encabezado-card { background: var(--corp-secundario); color: #fff; font-weight: 600; }
+.tabla-head th { background: #e3e8ef; color: var(--corp-primario); border-bottom: 2px solid var(--corp-primario); }
+.tarjeta-kpi { border: 1px solid var(--corp-borde); border-left: 4px solid var(--corp-primario); }
+.btn-corp { background: var(--corp-primario); border-color: var(--corp-primario); color: #fff; }
+.btn-corp:hover { background: var(--corp-secundario); border-color: var(--corp-secundario); color: #fff; }
+.nav-corp .nav-link { color: var(--corp-primario); font-weight: 500; }
+.nav-corp .nav-link.active { color: #fff; background: var(--corp-primario); border-color: var(--corp-primario); }

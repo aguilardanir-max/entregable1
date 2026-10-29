@@ -1,0 +1,25 @@
+{
+  "productos": [
+    { "id": 1, "codigo": "PRD-001", "nombre": "Portátil Ejecutivo 14\"", "categoria": "Tecnología", "precio": 2850000, "stock": 15 },
+    { "id": 2, "codigo": "PRD-002", "nombre": "Monitor LED 24\"", "categoria": "Tecnología", "precio": 620000, "stock": 30 },
+    { "id": 3, "codigo": "PRD-003", "nombre": "Silla Ergonómica", "categoria": "Mobiliario", "precio": 480000, "stock": 22 },
+    { "id": 4, "codigo": "PRD-004", "nombre": "Escritorio de Oficina", "categoria": "Mobiliario", "precio": 750000, "stock": 12 }
+  ],
+  "clientes": [
+    { "id": 1, "nombre": "Distribuidora Andina S.A.S.", "documento": "900123456-1", "email": "compras@andina.com.co", "telefono": "6011234567", "ciudad": "Bogotá" },
+    { "id": 2, "nombre": "Constructora Horizonte Ltda.", "documento": "800765432-9", "email": "contacto@horizonte.com.co", "telefono": "6042345678", "ciudad": "Medellín" },
+    { "id": 3, "nombre": "Carlos Andrés Rojas", "documento": "1012345678", "email": "crojas@correo.com", "telefono": "3105551234", "ciudad": "Bogotá" }
+  ],
+  "proveedores": [
+    { "id": 1, "nombre": "Tecnoimportaciones S.A.", "nit": "900456789-2", "email": "ventas@tecnoimport.com", "telefono": "6017654321", "ciudad": "Bogotá" },
+    { "id": 2, "nombre": "Muebles y Oficinas del Norte", "nit": "901234567-5", "email": "pedidos@mono.com.co", "telefono": "6053456789", "ciudad": "Barranquilla" }
+  ],
+  "compras": [
+    { "id": 1, "proveedorId": 1, "productoId": 1, "cantidad": 10, "costoUnitario": 2400000, "fecha": "2026-09-05" },
+    { "id": 2, "proveedorId": 2, "productoId": 3, "cantidad": 20, "costoUnitario": 390000, "fecha": "2026-09-12" }
+  ],
+  "ventas": [
+    { "id": 1, "clienteId": 1, "productoId": 2, "cantidad": 5, "precioUnitario": 620000, "fecha": "2026-09-20" },
+    { "id": 2, "clienteId": 2, "productoId": 4, "cantidad": 3, "precioUnitario": 750000, "fecha": "2026-09-25" }
+  ]
+}

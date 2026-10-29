@@ -4,8 +4,7 @@
 //  el título del navegador y la consola de la aplicación.
 // ============================================================
 export const AUTOR = {
-  nombre: "NOMBRE APELLIDO DEL ESTUDIANTE",
-  codigo: "CÓDIGO ESTUDIANTIL",
+  nombre: "Daniel Felipe Aguilar Rodriguez",
   programa: "Ingeniería de Sistemas",
   semestre: "VI",
   periodo: "2026-II",
